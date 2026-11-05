@@ -1,0 +1,43 @@
+{
+    "version": "0.3.0",
+    "description": "Redis Insight 桌面端非官方汉化工具(与 Redis Ltd. 无关)",
+    "homepage": "https://github.com/hlmd/redis-insight-chinese",
+    "license": "MIT",
+    "notes": [
+        "运行前请完全退出 Redis Insight(包括托盘图标)。",
+        "注入: redis-insight-chinese    还原: redis-insight-chinese restore",
+        "程序更新请用 scoop update redis-insight-chinese(Scoop 安装时不自更新)。"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.0/redis-insight-chinese-win-x64.zip",
+            "hash": "e6e1116e7dc3ef123d13d09154243596736f1bae85ad3424393e44ae54f62372"
+        },
+        "arm64": {
+            "url": "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.0/redis-insight-chinese-win-x64.zip",
+            "hash": "e6e1116e7dc3ef123d13d09154243596736f1bae85ad3424393e44ae54f62372"
+        }
+    },
+    "bin": [
+        [
+            "redis-insight-chinese-win-x64.exe",
+            "redis-insight-chinese"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/hlmd/redis-insight-chinese"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hlmd/redis-insight-chinese/releases/download/v$version/redis-insight-chinese-win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/hlmd/redis-insight-chinese/releases/download/v$version/redis-insight-chinese-win-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/hlmd/redis-insight-chinese/releases/download/v$version/SHA256SUMS.txt"
+        }
+    }
+}
