@@ -1,5 +1,5 @@
 {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "Redis Insight 桌面端非官方汉化工具(与 Redis Ltd. 无关)",
     "homepage": "https://github.com/hlmd/redis-insight-chinese",
     "license": "MIT",
@@ -10,12 +10,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.1/redis-insight-chinese-win-x64.zip",
-            "hash": "efb7a8e57eb39b1a0e0688560c351bc4994e42d32896ab132bdeea0bd0e3fe5e"
+            "url": "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.2/redis-insight-chinese-win-x64.zip",
+            "hash": "d9d2f6538d9cd93d4b019d09514e69f4dbb86514a9fa0f1e5c8f39599e250950"
         },
         "arm64": {
-            "url": "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.1/redis-insight-chinese-win-x64.zip",
-            "hash": "efb7a8e57eb39b1a0e0688560c351bc4994e42d32896ab132bdeea0bd0e3fe5e"
+            "url": "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.2/redis-insight-chinese-win-x64.zip",
+            "hash": "d9d2f6538d9cd93d4b019d09514e69f4dbb86514a9fa0f1e5c8f39599e250950"
         }
     },
     "bin": [
