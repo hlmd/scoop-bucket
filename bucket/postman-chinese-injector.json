@@ -1,16 +1,17 @@
 {
-    "version": "1.8.5",
+    "version": "1.9.0",
     "description": "Postman 桌面端非官方汉化工具(与 Postman, Inc. 无关)",
     "homepage": "https://github.com/hlmd/postman-chinese-injector",
     "license": "MIT",
     "notes": [
-        "完全退出 Postman 后运行 `postman-chinese-injector` 注入汉化，`--restore` 还原。",
+        "运行前请完全退出 Postman。",
+        "注入: postman-chinese-injector    繁體: postman-chinese-injector --lang zh-TW    还原: postman-chinese-injector restore    帮助: postman-chinese-injector -h",
         "程序由 Scoop 管理，升级请用：scoop update postman-chinese-injector"
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.8.5/postman-chinese-injector-win-x64.zip",
-            "hash": "2b420c7917202599bd5a1f93b2bee9e2c1dfec0d0104a44d36088a641f006c36"
+            "url": "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.9.0/postman-chinese-injector-win-x64.zip",
+            "hash": "8efb5889e7793ec0214d8007dd190d147ab8dc3d2713493d69705090fb63b7c4"
         }
     },
     "bin": [
