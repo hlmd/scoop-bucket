@@ -1,0 +1,33 @@
+{
+    "version": "1.8.5",
+    "description": "Postman 桌面端非官方汉化工具(与 Postman, Inc. 无关)",
+    "homepage": "https://github.com/hlmd/postman-chinese-injector",
+    "license": "MIT",
+    "notes": [
+        "完全退出 Postman 后运行 `postman-chinese-injector` 注入汉化，`--restore` 还原。",
+        "程序由 Scoop 管理，升级请用：scoop update postman-chinese-injector"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.8.5/postman-chinese-injector-win-x64.zip",
+            "hash": "2b420c7917202599bd5a1f93b2bee9e2c1dfec0d0104a44d36088a641f006c36"
+        }
+    },
+    "bin": [
+        [
+            "postman-chinese-injector-win-x64.exe",
+            "postman-chinese-injector"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hlmd/postman-chinese-injector/releases/download/v$version/postman-chinese-injector-win-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
