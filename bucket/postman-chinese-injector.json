@@ -1,5 +1,5 @@
 {
-    "version": "1.11.1",
+    "version": "1.11.2",
     "description": "Postman 桌面端非官方汉化工具(与 Postman, Inc. 无关)",
     "homepage": "https://github.com/hlmd/postman-chinese-injector",
     "license": "MIT",
@@ -10,8 +10,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.1/postman-chinese-injector-win-x64.zip",
-            "hash": "97be3128f0d03e357192d7ec7a1a68e7cb89e1f6f615764614eb21f01b47f4ac"
+            "url": "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.2/postman-chinese-injector-win-x64.zip",
+            "hash": "8527eca1d9f25c9e0ca4b60c2a422a123ce1309af1fbbfb7c8ee831d37a9e80e"
         }
     },
     "bin": [
